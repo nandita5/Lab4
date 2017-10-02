@@ -18,7 +18,7 @@ public class ReclamationProject {
      * @param b The second word.
      * @return This returns the variable r.
      */
-    static String doit(final String a, final String b) {
+    public static String doit(final String a, final String b) {
         if (a.length() > b.length()) {
             String tempA = a;
             String tempB = b;
